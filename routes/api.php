@@ -17,7 +17,7 @@ use App\Http\Controllers\loginController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+Route::ger('newroute',function(){return "hello";});
 Route::post('register',[registerController::class,'register']);
 Route::post('login',[loginController::class,'login'])->name('login');
 Route::get('login',[loginController::class,'login'])->name('login');
